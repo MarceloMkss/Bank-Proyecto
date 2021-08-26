@@ -6,12 +6,12 @@ public class Account implements Serializable{
 
 
 	// atributos
-	private double saldo;
+	protected double saldo;
 	
 	
 	// constructor
 	
-	public Account(double saldo) {
+	protected Account(double saldo) {
 		super();
 		this.saldo = saldo;
 	}
