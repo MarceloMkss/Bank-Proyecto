@@ -50,9 +50,16 @@ public class Customer implements Serializable {
 	}
 
 	public Account getAccount(int account_index) {
-		return accounts[account_index];
+		return accounts[account_index]; 
 	}
 
 	private static final long serialVersionUID = 7233944275693067556L;
+	
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
 
 }
